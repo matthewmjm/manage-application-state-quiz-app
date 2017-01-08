@@ -64,10 +64,9 @@ Answer: d; Han Solo was a Human smuggler from the manufacturing planet Corellia 
 QUESTION SEVEN:
 What gives a lightsaber its color?
 a. Crystals
-b. Its owner's personality
+b. The personality of the owner
 c. The Force
-d. Its owner's mood
-
+d. The mood of the owner
 Answer: a; As a rite of pass, young Jedi Knights are required to search for lightsaber crystal to build their first lightsabers. These crystals and how they "tune" with the Jedi, give the lightsaber it's color.
 
 

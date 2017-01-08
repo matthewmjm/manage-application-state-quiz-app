@@ -76,7 +76,7 @@ var questionsArray = [
     {
         questionText: 'In The Empire Strikes Back, which creatures attach themselves to the Millennium Falcon?',
         questionChoices: ['Ewoks', 'Mynocks', 'Tusken raiders', 'Banthas'],
-        questionCorrectChoice: 2,
+        questionCorrectChoice: 1,
         correctDetails: 'A mynock was a silicon-based parasitical organism found across the galaxy that was often seen leeching power from spacecraft. In addition, they could absorb matter from the hull of a ship hull causing it to breach, and if not caught in time, cause catastrophic failure.'
     }
 ];
