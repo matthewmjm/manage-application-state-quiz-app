@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <main>
-            <div class="welcome-page">
+            <div class="welcome-page" style="display: none;">
                 <h1>Star Wars Quiz App</h1>
                 <p>How well do you know your Star Wars Trivia?</p>
                 <p>Test your knowledge with these ten questions and...</p>
@@ -23,10 +23,33 @@
                     <button type="submit">Game On!</button>
                 </form>
             </div>
+
+            <div class="question-page" style="display: none;">
+                <h3><span class=" question-count "></span> : <span class="question-text "></span></h3>
+                <form name="current-question ">
+                    <ol type="A " class="choices "></ol>
+                    <button type="submit ">Submit</button>
+                    <button class="restart-game ">Start Over</button>
+                </form>
+            </div>
+
+            <div class="answer-feedback-page" style="display: none;">
+                <div class="feedback-container">
+                    <div class="feedback-header"></div>
+                    <p class="feedback-text"></p>
+                    <button class="see-next">See Next</button>
+                </div>
+            </div>
+
+            <div class="final-feedback-page" style="display: none;">
+                <h2>Results</h2>
+                <p class="results-text"></p>
+                <button class="restart-game">Start Over</button>
+            </div>
         </main>
     </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.js "></script>
+    <script src="app.js "></script>
 </body>
 
 </html>
