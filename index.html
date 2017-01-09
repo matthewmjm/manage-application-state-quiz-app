@@ -14,22 +14,22 @@
 <body>
     <div class="container">
         <main>
-            <div class="welcome-page" style="display: none;">
+            <div class="start-page" style="display: block;">
                 <h1>Star Wars Quiz App</h1>
                 <p>How well do you know your Star Wars Trivia?</p>
                 <p>Test your knowledge with these ten questions and...</p>
                 <p><em> may the Force be with you</em></p>
-                <form name="start-quiz">
+                <form name="game-start">
                     <button type="submit">Game On!</button>
                 </form>
             </div>
 
             <div class="question-page" style="display: none;">
-                <h3><span class=" question-count "></span> : <span class="question-text "></span></h3>
-                <form name="current-question ">
-                    <ol type="A " class="choices "></ol>
-                    <button type="submit ">Submit</button>
-                    <button class="restart-game ">Start Over</button>
+                <h3><span class="question-count"></span> : <span class="question-text"></span></h3>
+                <form name="current-question">
+                    <ol type="A" class="choices"></ol>
+                    <button type="submit">Submit</button>
+                    <button class="restart-game">Start Over</button>
                 </form>
             </div>
 
@@ -37,7 +37,7 @@
                 <div class="feedback-container">
                     <div class="feedback-header"></div>
                     <p class="feedback-text"></p>
-                    <button class="see-next">See Next</button>
+                    <button class="see-next"></button>
                 </div>
             </div>
 
